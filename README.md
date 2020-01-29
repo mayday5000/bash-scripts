@@ -23,3 +23,28 @@
 # Ejemplo:   sh ./pattern_replace.sh -e htm,xml,html,php,cgi,pl -i ./Input -o ./Output -s ./Pattern_replace/pattern_src.txt -d ./Pattern_replace/pattern_dst.txt -r
 #
 #******************************************************************************************
+
+
+#******************************************************************************************
+#
+# file_finder.sh
+#
+# Version: 1.00
+#
+# Script para realizar multiples busquedas de archivos en paralelo.
+# Utiliza un archivo de entrada con el listado de archivos a buscar y luego
+# genera otro archivo con todas las locaciones posibles de cada archivo encontrado.
+#
+# Desarrollado por: Damian Andres Ulanowicz
+#
+# -----------------------------------------------------------------------------------------
+#
+# Modo de uso:
+# bash ./file_finder.sh input_list_file output_file [-h|--help]
+#
+#
+# [-h|--help]          Ayuda.
+#
+# Ejemplo:   sh ./file_finder.sh input_list.txt sqr_locations.txt
+#
+#******************************************************************************************
