@@ -18,6 +18,7 @@
  -s|--srcpattern      Archivo con lineas de texto a buscar en los archivos fuente.
  
  -d|--dstpattern      Archivo con lineas de texto a reemplazar en los archivos fuente.
+ 
                       Cada linea en srcpattern sera reemplazada por la correspondiente 
                       linea de dstpattern en los archivos fuente.
                       
