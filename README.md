@@ -5,7 +5,7 @@
  Version: 1.30
 
  Script que permite reemplazar un patron de texto determinado dentro de varios archivos de texto.
- Desarrollado por: Damian Andres Ulanowicz
+
 
  Modo de uso:
  sh ./pattern_replace.sh -e -i [-o] -s -d [-r] [-h]
@@ -25,6 +25,9 @@
 
 
 
+
+---------------------------------------------------------------------------------------
+
  parallel_finder.sh
 
  Version: 1.00
@@ -32,8 +35,6 @@
  Script para realizar multiples busquedas de archivos en paralelo.
  Utiliza un archivo de entrada con el listado de archivos a buscar y luego
  genera otro archivo con todas las locaciones posibles de cada archivo encontrado.
-
- Desarrollado por: Damian Andres Ulanowicz
 
  -----------------------------------------------------------------------------------------
 
