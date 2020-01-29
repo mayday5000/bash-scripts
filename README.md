@@ -36,8 +36,6 @@
  Utiliza un archivo de entrada con el listado de archivos a buscar y luego
  genera otro archivo con todas las locaciones posibles de cada archivo encontrado.
 
- -----------------------------------------------------------------------------------------
-
  Modo de uso:
  bash ./parallel_finder.sh input_list_file output_file [-w|--wait] [-h|--help]
 
